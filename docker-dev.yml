@@ -1,0 +1,5 @@
+repos:
+  - url: https://github.com/aufishgrp/school.git
+    ref: master
+  - url: https://github.com/aufishgrp/proxy.git
+    ref: master

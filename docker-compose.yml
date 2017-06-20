@@ -1,0 +1,11 @@
+version: '2'
+services:
+  fishfosh:
+    build:
+      context: .
+    volumes:
+      - .:/src
+    stdin_open: true
+    tty: true
+    ports:
+      - "8081:8081"
